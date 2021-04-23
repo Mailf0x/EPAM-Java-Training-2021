@@ -81,6 +81,9 @@ public class Runner {
                     } else if ( args[i].compareTo(DESCENDING_SORT_KEY)
                             == 0 ) {
                         sorter = new DescendingSorter(type);
+
+                    } else {
+                        throw new InvalidInputException(null);
                     }
                     Collections.sort(structures, sorter);
 
@@ -126,6 +129,7 @@ public class Runner {
 
         } catch (InvalidInputException e) {
             ErrorHandler.handle(e);
+
         } catch (UnknownTypeException e) {
             ErrorHandler.handle(e);
         }
