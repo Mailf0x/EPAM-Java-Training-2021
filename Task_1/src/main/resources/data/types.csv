@@ -1,0 +1,9 @@
+Name,Data type
+State,string
+City,string
+Hotel,string
+Type,string
+Transport,string
+Length,number
+Rating,number
+Cost,number
