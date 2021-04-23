@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+USAGE: Runner [command] [arguments...] [command] [arguments...] ...
+--------------------------------------------------------------------------------
+commands:
+    -f <type name> <floor> <ceil>
+        filter structures with fields of <type name> type and values from
+        <floor> to <ceil>
+
+    -h
+        print this manual
+
+    -sa <type name>
+        ascending sort structures by fields of <type name> type
+
+    -sd <type name>
+        descending sort of structures by fields of <type name> type
+--------------------------------------------------------------------------------
