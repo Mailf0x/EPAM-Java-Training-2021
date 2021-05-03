@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structures>
+    <structure id="trip_1">
+		<field name="type" type="string">Recreation</field>
+	    <field name="country" type="string">Turkey</field>
+		<field name="days/nights number" type="integer">7</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">4</field>
+		<field name="diet" type="string">BB</field>
+		<field name="room size" type="integer">3</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1126.5</field>
+	</structure>
+	<structure id="trip_2">
+		<field name="type" type="string">Excursions</field>
+		<field name="country" type="string">Egypt</field>
+		<field name="days/nights number" type="integer">7</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">4</field>
+		<field name="diet" type="string">BB</field>
+		<field name="room size" type="integer">2</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1199.5</field>
+	</structure>
+	<structure id="trip_3">
+		<field name="type" type="string">Treatment</field>
+		<field name="country" type="string">Egypt</field>
+		<field name="days/nights number" type="integer">7</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">3</field>
+		<field name="diet" type="string">HB</field>
+		<field name="room size" type="integer">3</field>
+		<field name="room has tv" type="boolean">false</field>
+		<field name="room has conditioner" type="boolean">false</field>
+		<field name="cost" type="double">904.5</field>
+	</structure>
+	<structure id="trip_4">
+		<field name="type" type="string">Cruise</field>
+		<field name="country" type="string">Egypt</field>
+		<field name="days/nights number" type="integer">14</field>
+		<field name="transport" type="string">Ship</field>
+		<field name="hotel stars" type="integer">3</field>
+		<field name="diet" type="string">HB</field>
+		<field name="room size" type="integer">2</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1141.5</field>
+	</structure>
+	<structure id="trip_5">
+		<field name="type" type="string">Recreation</field>
+		<field name="country" type="string">Egypt</field>
+		<field name="days/nights number" type="integer">7</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">4</field>
+		<field name="diet" type="string">BB</field>
+		<field name="room size" type="integer">2</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1235.5</field>
+	</structure>
+	<structure id="trip_6">
+		<field name="type" type="string">Cruise</field>
+		<field name="country" type="string">Tunisia</field>
+		<field name="days/nights number" type="integer">11</field>
+		<field name="transport" type="string">Ship</field>
+		<field name="hotel stars" type="integer">3</field>
+		<field name="diet" type="string">BB</field>
+		<field name="room size" type="integer">1</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1429.5</field>
+	</structure>
+	<structure id="trip_7">
+		<field name="type" type="string">Excursions</field>
+		<field name="country" type="string">Egypt</field>
+		<field name="days/nights number" type="integer">10</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">3</field>
+		<field name="diet" type="string">AI</field>
+		<field name="room size" type="integer">1</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1753.5</field>
+	</structure>
+	<structure id="trip_8">
+		<field name="type" type="string">Treatment</field>
+		<field name="country" type="string">Turkey</field>
+		<field name="days/nights number" type="integer">11</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">4</field>
+		<field name="diet" type="string">AI</field>
+		<field name="room size" type="integer">1</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1622.5</field>
+	</structure>
+	<structure id="trip_9">
+		<field name="type" type="string">Recreation</field>
+		<field name="country" type="string">Turkey</field>
+		<field name="days/nights number" type="integer">11</field>
+		<field name="transport" type="string">Airplane</field>
+		<field name="hotel stars" type="integer">4</field>
+		<field name="diet" type="string">BB</field>
+		<field name="room size" type="integer">1</field>
+		<field name="room has tv" type="boolean">true</field>
+		<field name="room has conditioner" type="boolean">true</field>
+		<field name="cost" type="double">1500.5</field>
+	</structure>
+</structures>
