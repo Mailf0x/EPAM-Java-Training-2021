@@ -1,0 +1,22 @@
+CREATE DATABASE shop;
+USE shop;
+CREATE TABLE black_list (`id` INT, `name` VARCHAR(64));
+INSERT INTO black_list VALUES(1, 'Customer 1');
+INSERT INTO black_list VALUES(2, 'Customer 2');
+CREATE TABLE customers (`id` INT, `name` VARCHAR(64));
+INSERT INTO customers VALUES(1, 'Customer 1');
+INSERT INTO customers VALUES(2, 'Customer 2');
+INSERT INTO customers VALUES(3, 'Customer 3');
+INSERT INTO customers VALUES(4, 'Customer 4');
+INSERT INTO customers VALUES(5, 'Customer 5');
+CREATE TABLE orders (`id` INT, `product_id` INT, `customer_id` INT);
+INSERT INTO orders VALUES(1, 1, 1);
+INSERT INTO orders VALUES(2, 1, 2);
+INSERT INTO orders VALUES(3, 2, 2);
+INSERT INTO orders VALUES(4, 3, 3);
+INSERT INTO orders VALUES(5, 4, 3);
+CREATE TABLE products (`id` INT, `name` VARCHAR(64), `cost` DOUBLE);
+INSERT INTO products VALUES(1, 'Product 1', 150.5);
+INSERT INTO products VALUES(2, 'Product 2', 125.5);
+INSERT INTO products VALUES(3, 'Product 3', 175.5);
+INSERT INTO products VALUES(4, 'Product 4', 100.5)
