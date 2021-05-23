@@ -1,0 +1,19 @@
+Available commands:
+    add_black_list_customer
+        Adds customer to black list database.
+    add_product
+        Adds product to products database.
+    remove_black_list_customer
+        Removes customer from black list database.
+    remove_product
+        Removes product from products database.
+    save_changes
+        Saves all changes to databases.
+    show_black_list
+        Prints black list database.
+    show_customers
+        Prints customers database.
+    show_products
+        Print products database.
+    quit
+        Stops application.
