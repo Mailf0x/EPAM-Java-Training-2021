@@ -1,0 +1,7 @@
+Available commands:
+    make_order
+        Adds new order to order database.
+    show_products
+        Prints products database.
+    quit
+        Stops application.
